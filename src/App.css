@@ -1,0 +1,153 @@
+/* Define a altura da tela inteira e cor de fundo */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(251, 103, 11);
+}
+
+/* Caixa branca no centro */
+.box {
+  background-color: white;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Estiliza o título */
+.title {
+  color: rgb(251, 103, 11);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estiliza o texto abaixo do título */
+.message {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Estiliza o botão */
+.button {
+  background-color: rgb(251, 103, 11);
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efeito hover no botão */
+.button:hover {
+  background-color: darkorange;
+}
+
+/* Estiliza os botões de ação */
+.actions {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  margin-top: 20px;
+}
+
+/* Estilização da lista */
+.list-container {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.table-container {
+  height: 90%;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Ícones de status */
+.icon {
+  font-size: 18px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+/* Botão de edição */
+.edit-button {
+  background-color: rgb(251, 103, 11);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: darkorange;
+}
+
+/* Botão para salvar */
+.save-button {
+  background-color: rgb(251, 103, 11);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Botão para cancelar */
+.cancel-button {
+  background-color: rgb(251, 39, 11);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
